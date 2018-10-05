@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<link rel="stylesheet" href="css/style.css">
 	<meta charset="UTF-8">
 	<title>Practica 02 HTML5 + CSS </title>
 </head>
 <body>
 		<header>
-			<image src= "img/banner.png"></image>
-			<image src= "img/granthams.png"></image>
-			<image src= "img/paint.png"></image>
+			<image src= "img/banner.png" id= "banner"></image>
+			<image src= "img/granthams.png" id = "granthams"></image>
+			<image src= "img/paint.png" id= "paint"></image>
 			<input type="search" placeholder="Search">
 
 			<nav>
@@ -21,12 +22,12 @@
 				</ul>
 			</nav>
 			</header>
-			<section>
-				<article>
+			<section id="section1">
+				<article id= "section1_article1">
 					<img src="img/slide.png" alt="">
 				</article>
-				<article>
-					<span> We offer...</span>
+				<article id="section1_article2">
+					<span class="pink bold l_size">We offer...</span>
 					<ul>
 						<li>High Competitive Prices</li>
 						<li>Variable Data</li>
@@ -38,42 +39,44 @@
 						<li>Great Customer Services</li>
 					</ul>
 				</article>
-				<img src="omg/bg_offer.png" alt="">
+				<img src="omg/bg_offer.png" alt="" id="bgoffer">
 			</section>
-			<section>
+			<section id="section2">
 				<article>
-					<span>01772 250207</span>
+					<span class="pink bold m_size">01772 250207</span>
 				</article>
 			</section>
-			<section>
+			<section id="section3">
 				<article> 
 					<img src="img/cerdito.png" alt="">
-					<span>Save This Spring</span>
+					<span class="pink bold s_size">
+					Save This Spring
+					</span>
 					<br>
 					Fabulous Discounts on canvas's and roll up's as well as many offers
 					<p></p>
-					<span>Find out more...</span>
+					<span class="pink bold">Find out more...</span>
 				</article>
 				<article>
 					<img src="img/hoja.png" alt="">
-					<span>Eco Friendly</span>
+					<span class="green bold s_size">Eco Friendly</span>
 					<br>
 					Eco Friendly Materials used in our production process.
 					Recycled papers and paper from Sustainable Forest (Including FSC papers) are available across our range of rinting Services.
 				</article>
 				<article>
 					<img src="img/new.png" alt="">
-					<span>Uploa your file</span>
+					<span class="blue bold s_size">Upload your file</span>
 					<br>
 					Making it easy to order your printing today. Our upload
 					facility enables you to send your files directly to us. Use the 
 					note section to inform us of you order, the sit back and
 					wait for a member of our team to contact you.
 					<p></p>
-					<span>Upload Your File Now...</span>
+					<span class="blue" >Upload Your File Now...</span>
 				</article>
 				<article>
-					<span>Stay in touch</span>
+					<span class="pink m_size">Stay in touch</span>
 					<br>
 					Join our mailing list today
 					<br>
