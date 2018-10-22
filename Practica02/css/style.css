@@ -1,9 +1,13 @@
 body{
 	font-size: 16px;
 	margin: 0px auto;
-	max-width: 1078px;
-	min-width: 1078px;
+	max-width: 1024px;
+	min-width: 1024px;
+	border: 1px solid green;
 
+}
+header{
+	margin-bottom: 50px;
 }
 header input{
 	float: right;
@@ -22,16 +26,90 @@ border-bottom: 1px solid gray;
 color: gray;
 display: inline-block;
 font-size: 1.8em;
-margin-right: 15px;
+margin-right: 10px;
 padding-bottom: 2px;
 
 }
+#banner{
+	width: 100%;
+}
 
 #paint{
+	margin-top: 1px;
 	float: right;
 }
+
 #granthams{
 	margin-left: 25px;
 	margin-top: 25px;
+	width: 20%;
 }
-#
+#section1{
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+#section3{
+	margin-left: 20px;
+}
+
+#section1_span{
+
+}
+
+#section1 article{
+	display: inline-block;
+	padding: 10px;
+	vertical-align: top;
+}
+
+#section2 {
+	margin-bottom: 50px;
+}
+#section2 span{
+	margin-right: 30px;
+	float: right;
+}
+#section3 article{
+	display: inline-block;
+	width: 24.7%;
+	vertical-align: top;
+}
+
+#section3_article4{
+	margin-top: 70px;
+}
+
+#section3 article form input{
+		border-radius: 5px;
+		height: 17px;
+		padding: 6px;
+		margin-top: 10px;
+	}
+
+#section3 article input[type="button"]{
+background: green;
+color: white;
+height: 31px;
+width: 70px;
+}
+.blue{
+	color: blue;
+}
+.green{
+	color: green;
+}
+.pink{
+	color: pink;
+}
+.bold{
+	font-weight: bold;
+}
+.l_size{
+	font-size: 50px;
+}
+.m_size{
+	font-size: 35px;
+}
+.s_size{
+	font-size: 20px;
+}
