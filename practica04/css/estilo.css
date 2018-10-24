@@ -1,0 +1,97 @@
+body{
+	font-size: 16px;
+	margin: 0px auto;
+	max-width: 1024px;
+	min-width: 1024px;
+	border: 1px solid green;
+
+}
+
+#h-article1{
+  display: inline-block;
+  width: 57%;
+  border: 1px solid green;
+
+}
+#h-article2{
+  display: inline-block;
+  width: 42%
+}
+header{
+ border-bottom: 1px dashed gray;
+}
+header nav {
+  padding-bottom: 20px;
+}
+
+header nav ul li{
+	display: inline-block;
+  padding: 8px;
+
+}
+header  img[alt]{
+  position: relative;
+  bottom: 90px;
+  left: 258px;
+  width: 7%;
+  padding: 3px;
+}
+#first_bike{
+  width: 35%;
+  margin-top: 60px;
+  padding-bottom: 15px;
+
+
+}
+#go_to_shop{
+    width: 30%;
+    position:relative;
+    right: -20px;
+    top: -35px;
+}
+#buy{
+  position: relative;
+  width: 10%;
+  top: 15px;
+  right: 160px;
+
+}
+#article1{
+  width: 57%;
+  display: inline-block;
+  vertical-align: top;
+
+
+}
+#article2{
+  width: 42%;
+  display: inline-block;
+
+}
+#article1 img[alt]{
+  display: inline-block;
+  width: 45%;
+
+}
+#video02{
+  padding-right: 20px;
+}
+#article1-1{
+  border-bottom: 1px dashed gray;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+}
+#article1-2{
+}
+#bike{
+  width: 95%;
+  margin-left: 20px;
+  float: right;
+}
+#fiveYears{
+  width: 30%;
+  position: relative;
+  bottom: 80px;
+  left: 15px;
+}
