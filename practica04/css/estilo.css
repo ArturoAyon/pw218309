@@ -3,23 +3,21 @@ body{
 	margin: 0px auto;
 	max-width: 1024px;
 	min-width: 1024px;
-	border: 1px solid green;
+	font-family: 'Roboto', sans-serif;
+
 
 }
 
 #h-article1{
   display: inline-block;
   width: 57%;
-  border: 1px solid green;
 
 }
 #h-article2{
   display: inline-block;
   width: 42%
 }
-header{
- border-bottom: 1px dashed gray;
-}
+
 header nav {
   padding-bottom: 20px;
 }
@@ -31,29 +29,29 @@ header nav ul li{
 }
 header  img[alt]{
   position: relative;
-  bottom: 90px;
-  left: 258px;
+  bottom: 110px;
+  left: 298px;
   width: 7%;
   padding: 3px;
 }
 #first_bike{
   width: 35%;
-  margin-top: 60px;
+  margin-top: 50px;
   padding-bottom: 15px;
 
 
 }
 #go_to_shop{
-    width: 30%;
+    width: 45%;
     position:relative;
-    right: -20px;
+    right: -30px;
     top: -35px;
 }
 #buy{
   position: relative;
-  width: 10%;
-  top: 15px;
-  right: 160px;
+  width: 15%;
+  top: 25px;
+  right: 220px;
 
 }
 #article1{
@@ -71,6 +69,7 @@ header  img[alt]{
 #article1 img[alt]{
   display: inline-block;
   width: 45%;
+	padding-top: 20px;
 
 }
 #video02{
@@ -94,4 +93,35 @@ header  img[alt]{
   position: relative;
   bottom: 80px;
   left: 15px;
+}
+footer section article{
+	vertical-align: top;
+}
+#f-section2 > article{
+	display: inline-block;
+	width: 17.20%;
+	padding: 12px;
+
+
+
+}
+#f-section1 > article{
+	display: inline-block;
+}
+.border{
+	padding-bottom: 10px;
+	border-bottom: 1px dashed gray;
+
+}
+.bold{
+	font-weight: bold;
+}
+.font_large{
+	font-size: 70px;
+}
+.green{
+	color: #73f33d;
+}
+.gray{
+	color: ##5a5a5a;
 }
