@@ -1,0 +1,72 @@
+/*Todos con atributo alt*/
+img[alt]{
+	border:5px solid blue;
+
+} /*al inicio de la cadena*/
+img[src^="img/"]{  
+	width: 500px;
+}
+/*Al final de la cadena*/
+img[src$="png"]{
+	width: 250px;
+}
+
+img[src*="mg/"]{
+	width: 100px;
+}
+
+article[class˜="resltado"]{
+	border: 1x dashed blue; 
+}
+article[class˜="archivo"]{
+	border: 1x dashed blue; 
+}
+article[class˜="ingles"]{
+	border: 1x dashed blue; 
+}
+article[class|="ingles"]{
+	text-align: center; 
+}
+
+div > p{
+	color: blue;
+}
+
+div p{
+	color: red;
+}
+
+/*Seleccionar solo el elemento <p> que esta 
+inmediatamente despues del elemento <h2>*/
+h2 + p{
+	color: gray;
+}
+
+/*Seleccionar todos los hermanos del tipo del elemento 
+seleccionado*/
+h2~p {
+	color: green;
+}
+
+/*Poner en color rojo el texto de las secciones menos 
+el id="referencias"*/
+section:not(#referencias){
+	color: blue;
+}
+
+li:nth-child(odd){
+	color:green;
+}
+li:nth-child(even){
+	color:blue;
+}
+li:nth-child(5){
+	color:red;
+}
+li:nth-last-child(1){
+	color:purple;
+}
+p:first-line{
+	color: red;
+	font-weight: bold;
+}
