@@ -1,0 +1,47 @@
+body{
+	font-size: 16px;
+	margin: 0px auto;
+	max-width: 1024px;
+	min-width: 1024px;
+	border: 1px solid green;
+  background-color: #2b2b2b;
+  color: gray;
+
+}
+header input{
+  margin-left: 75px;
+  width: 15%;
+  margin-top: 7px;
+}
+header img{
+  width: 73%;
+  float: right;
+  padding-top: 3px;
+  padding-right: 15px;
+}
+header{
+padding-bottom: 30px;
+display: inline-block;
+background-color: #efefef;
+}
+header nav form input{
+  margin-left: 40px;
+}
+#section1 article{
+  display: inline-block;
+  width: 19%;
+  vertical-align: top;
+  padding-top: 15px;
+
+
+}
+#section1 article img{
+  float: left;
+  margin-left: 5px;
+  width: 70%;
+}
+#section1 article ul{
+  padding-top: 60px;
+  margin-left: 20px;
+
+}
