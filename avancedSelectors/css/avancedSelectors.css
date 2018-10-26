@@ -3,7 +3,7 @@ img[alt]{
 	border:5px solid blue;
 
 } /*al inicio de la cadena*/
-img[src^="img/"]{  
+img[src^="img/"]{
 	width: 500px;
 }
 /*Al final de la cadena*/
@@ -16,16 +16,16 @@ img[src*="mg/"]{
 }
 
 article[class˜="resltado"]{
-	border: 1x dashed blue; 
+	border: 1x dashed blue;
 }
 article[class˜="archivo"]{
-	border: 1x dashed blue; 
+	border: 1x dashed blue;
 }
 article[class˜="ingles"]{
-	border: 1x dashed blue; 
+	border: 1x dashed blue;
 }
 article[class|="ingles"]{
-	text-align: center; 
+	text-align: center;
 }
 
 div > p{
@@ -36,19 +36,19 @@ div p{
 	color: red;
 }
 
-/*Seleccionar solo el elemento <p> que esta 
+/*Seleccionar solo el elemento <p> que esta
 inmediatamente despues del elemento <h2>*/
 h2 + p{
 	color: gray;
 }
 
-/*Seleccionar todos los hermanos del tipo del elemento 
+/*Seleccionar todos los hermanos del tipo del elemento
 seleccionado*/
 h2~p {
 	color: green;
 }
 
-/*Poner en color rojo el texto de las secciones menos 
+/*Poner en color rojo el texto de las secciones menos
 el id="referencias"*/
 section:not(#referencias){
 	color: blue;
@@ -67,6 +67,6 @@ li:nth-last-child(1){
 	color:purple;
 }
 p:first-line{
-	color: red;
+	color: white;
 	font-weight: bold;
 }

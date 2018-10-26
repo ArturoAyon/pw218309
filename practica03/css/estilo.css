@@ -1,9 +1,11 @@
+html{
+	background-color: white;
+}
 body{
 	font-size: 16px;
 	margin: 0px auto;
 	max-width: 1024px;
 	min-width: 1024px;
-	border: 1px solid green;
   background-color: #2b2b2b;
   color: gray;
 
@@ -20,28 +22,115 @@ header img{
   padding-right: 15px;
 }
 header{
-padding-bottom: 30px;
+padding-bottom: 17px;
 display: inline-block;
 background-color: #efefef;
 }
 header nav form input{
   margin-left: 40px;
 }
-#section1 article{
-  display: inline-block;
-  width: 19%;
-  vertical-align: top;
-  padding-top: 15px;
+#section1{
+  padding-top: 13px;
 
 
 }
+#section1 article{
+  display: inline-block;
+  width: 17%;
+  vertical-align: top;
+  padding-top: 15px;
+	padding-left: 12px;
+	height: 290px;
+
+
+
+}
+#section1 article:not(#section1-article1){
+	position: relative;
+	left: 72px;
+  margin-right: -3px;
+
+	flex-direction: column;
+
+
+}
+
 #section1 article img{
+	margin-top: -15px;
   float: left;
   margin-left: 5px;
   width: 70%;
 }
 #section1 article ul{
   padding-top: 60px;
-  margin-left: 20px;
+  margin-left: 5px;
+	list-style-type: none;
 
+}
+
+#section1-article3{
+	background: #545454;
+}
+#section1-article4{
+	background: #d23b3a;
+}
+#section1-article5{
+	background: #e6e6e6;
+background-size: contain;
+}
+#section2 {
+	margin-top: 16px;
+	border-top: .1px solid#939393;
+
+}
+#section2 article{
+	display: inline-block;
+	width: 297px;
+	border-bottom: 1px dashed #939393;
+	margin-left: 20px;
+	margin-right: 21px;
+}
+#section2 article img{
+	margin-top: 20px;
+width: 75%;
+margin-left: 80px;
+padding-bottom: 10px;
+
+
+}
+#f-section article{
+	display: inline-block;
+	width: 32.8%;
+	vertical-align: top;
+
+}
+#f-section article p{
+	padding-left: 80px;
+	padding-right: 30px;
+
+}
+#f-section-article4 {
+	display: inline-block;
+	width: 49%;
+}
+#first-p:first-line{
+	color: white;
+
+}
+
+
+.white{
+	color: white;
+}
+.bold{
+	font-weight: bold;
+}
+.gray{
+	color: #939393;
+}
+.green{
+background: #b7ce3e;
+}
+.right{
+	float: right;
 }
