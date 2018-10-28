@@ -1,0 +1,133 @@
+body{
+	font-size: 15px;
+	margin: 0px auto;
+	max-width: 1024px;
+	min-width: 1024px;
+  color: white;
+  font-family: sans-serif;
+}
+
+header{
+  background-color: #3a3a3a;
+  height: 50px;
+}
+header article{
+  display: inline-block;
+  width: 1024px;
+  height: 50px;
+}
+ul{
+  float: left;
+  margin-left: 200px;
+
+}
+ul li{
+  display: inline-block;
+  vertical-align: top;
+  vertical-align: middle;
+}
+#sitepoint{
+  float: left;
+  display: inline-block;
+  margin-left: 20px;
+  padding-top: 8px;
+}
+header img[alt]{
+	vertical-align: top;
+
+}
+
+header input{
+  width: 65px;
+  height: 25px;
+  margin-top: -20px;
+  margin-left: 8px;
+  color: white;
+  background-color: #3ec9cb;
+  border: none;
+}
+header input[alt]{
+  margin-left: 15px;
+  background-color: #3a3a3a;
+  border: 0.1px solid white;
+  border-top: 0.1px solid gray;
+
+}
+#section01{
+  background-color: #e62c85
+}
+#section01 article{
+  display: inline-block;
+
+  vertical-align: top; margin-left: 10px;
+  padding-top: 15px;
+  width: 318px;
+}
+#se01article01{
+  padding-top: 20px;
+}
+#se01article02{
+  text-align: center;
+}
+#section01 input{
+  width: 90%;
+  text-align: center;
+  color: #e62c85;
+  height: 20px;
+  margin-top: -5px;
+  margin-left: 30px;
+}
+#section02{
+  background-color: #262626;
+  height: 393px;
+  background-image: url("../img/fondo.png"); /* The image used */
+  background-position: center; /* Center the image */
+  background-repeat:    repeat; /* Do not repeat the image */
+
+}
+#section02 article{
+  width: 460px;
+  display: inline-block;
+  vertical-align: top;
+}
+#se02article01{
+  padding-top: 30px;
+  padding-left: 30px;
+
+}
+#se02article02{
+  height: 360px;
+
+}
+
+#section02 img{
+  width: 85%;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+#section02 input{
+  width: 200px;
+  height: 45px;
+  background-color: #3ec9cb;
+  border: none;
+  color: white;
+
+}
+footer{
+  background-color: #ef8d25;
+  margin-top: -30px;
+  padding-bottom: 15px;
+
+}
+.bold{
+	font-weight: bold;
+}
+.l_size{
+	font-size: 40px;
+}
+.m_size{
+	font-size: 37px;
+}
+.s_size{
+	font-size: 24px;
+}
