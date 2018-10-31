@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/estilo.css">
+	<title>Calculadora</title>
+
+</head>
+<body>
+	<table>
+		<tr>
+			<td colspan="4">
+				<input onfocus="colorAmarillo(this);"  onfocusout="colorBlanco(this);" type="text" id="operando1" value="0">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<input onfocus="colorAmarillo(this);"  onfocusout="colorBlanco(this);" type="text" id="operando2" value="0">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<input  type="text" id="resultado" value="0">
+			</td>
+		</tr>
+		<tr>
+			<td><button value="7" id="siete">7</button></td>
+			<td><button value="8" id="ocho">8</button></td>
+			<td><button value="9" id="nueve">9</button></td>
+			<td><button value="+" id="suma">+</button></td>
+		</tr>
+		<tr>
+			<td><button value="4" id="4">7</button></td>
+			<td><button value="5" id="5">5</button></td>
+			<td><button value="6" id="6">6</button></td>
+			<td><button value="-" id="resta">-</button></td>
+		</tr>
+		<tr>
+			<td><button value="1" id="1">1</button></td>
+			<td><button value="2" id="2">2</button></td>
+			<td><button value="3" id="3">3</button></td>
+			<td><button value="*" id="multiplicacion">*</button></td>
+		</tr>
+		<tr>
+			<td colspan="2"><button value="=" id="igual">=</button></td>
+			<td><button value="0" id="0">0</button></td>
+			<td><button value="/" id="division">/</button></td>
+	</table>
+	<script src="js/calculadora.js"> </script>
+</body>
+</html>
