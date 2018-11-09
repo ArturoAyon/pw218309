@@ -1,0 +1,133 @@
+body{
+	font-size: 16px;
+	margin: 0px auto;
+	max-width: 1024px;
+	min-width: 1024px;
+	font-family: 'Oswald', sans-serif;
+	color:#717171;
+	border: 1px solid green;
+  color: white;
+
+}
+header nav ul{
+  margin-left: 50px;
+}
+header nav ul li{
+  display: inline-block;
+  padding-left: 10PX;
+  padding-top: 10PX;
+  font-size: 13px;
+
+}
+header nav ul li:nth-child(odd){
+	font-weight: bold;
+}
+
+#harticle02{
+  background-color: #4ccfc1;
+  height: 40px;
+  border-bottom: 1px solid #3ebbad;
+}
+#aditii{
+  margin-top: 10px;
+  width: 100px;
+  margin-left: 100px;
+}
+#canasta{
+  margin-top: 10px;
+  width: 90px;
+  margin-left: 120px;
+}
+header input{
+  width: 340px;
+  margin-left: 180px;
+  margin-top: 30px;
+  vertical-align: top;
+  border: 1px solid #d8d8d8;
+
+}
+#section01{
+  background-color: #3dc4b6;
+  height: 280px;
+}
+#section01 article{
+  display: inline-block;
+   width: 450px;
+}
+#sec01article01{
+  vertical-align: top;
+  padding-top: 60px;
+  padding-left: 102px;
+}
+#sec01article01 input{
+  width: 120px;
+  height: 40px;
+  color: white;
+  background-color: #3dc4b6;
+  border: 2px solid white;
+}
+
+#sec01article02 img{
+  width: 250px;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+#section02{
+  background-color: #40c4b2;
+  height: 60px;
+  border-top: 2px solid #39a194;
+}
+#section02 span{
+  position: relative;
+  left: 100px;
+  top: 20px;
+}
+#section03 article{
+  width: 200px;
+  border: 1px #dfdfdf solid;
+  display: inline-block;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 50px;
+  border-bottom: 3px solid #39bb8f;
+  margin-bottom: 10px;
+}
+#section03 article span{
+  color: #999999;
+  display: inline-block;
+  font-weight: bold;
+
+}
+section article input{
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+#section03 article input{
+  width: 70px;
+  height: 23px;
+  color: white;
+  background-color: #3cc395;
+  border: none;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+#zapatillas{
+  width: 150px;
+}
+#playera_blanca{
+  width: 137px;
+}
+#playera_negra{
+  width: 130px;
+}
+
+.bold{
+  font-weight:bold;
+}
+.l_size{
+  font-size: 40px;
+}
+.m_size{
+  font-size: 18px;
+}
