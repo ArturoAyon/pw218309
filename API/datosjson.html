@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Promesas usando Fetch</title>
+	<script>
+		var datosPersona = function(){
+			fetch('https://randomuser.me/api/')
+			.then(datos=>datos.json()) //respuesta del servidor
+			.then(datos=>{
+				//console.log(datos)s
+				console.log(datos.results[0].picture.large)
+				console.log(datos.results[0].name.first + " " + datos.results[0].name.last )
+				document.getElementById('foto').setAttribute('src',datos.results[0].picture.large)
+				document.getElementById('demo').innerHTML = datos.results[0].name.first
+			})
+		}
+	</script>
+
+	<style>
+		img {
+			border-radius: 500px;
+		}
+	</style>
+</head>
+<body>
+	<img src="" alt="" id="foto">
+	<article id="demo">
+		
+	</article>
+
+	<button onclick="datosPersona()"> Persona</button>
+	
+</body>
+</html>
