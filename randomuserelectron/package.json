@@ -1,0 +1,25 @@
+{
+  "name": "randomuserelectron",
+  "version": "1.0.0",
+  "description": "Usuarios para electron",
+  "main": "main.js",
+  "dependencies": {
+    "asar": "^0.14.5",
+    "electron": "^3.0.9",
+    "electron-package": "^0.1.0",
+    "electron-require": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "empaqueta": "electron-packager . Ramdom --overwrite --asar"
+  },
+  "keywords": [
+    "Electron",
+    "usuarios",
+    "random"
+  ],
+  "author": "Arturo Ayon",
+  "license": "MIT"
+}
